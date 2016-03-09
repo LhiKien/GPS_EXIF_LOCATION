@@ -14,6 +14,7 @@
 		E10D3CC61C902C5400657C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10D3CC41C902C5400657C02 /* LaunchScreen.storyboard */; };
 		E10D3CD11C902C5400657C02 /* ImageExifInfoLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D3CD01C902C5400657C02 /* ImageExifInfoLocationTests.swift */; };
 		E10D3CDC1C902C5400657C02 /* ImageExifInfoLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D3CDB1C902C5400657C02 /* ImageExifInfoLocationUITests.swift */; };
+		E10D3CEA1C90347B00657C02 /* 20160228_130116.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E10D3CE91C90347B00657C02 /* 20160228_130116.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E10D3CD71C902C5400657C02 /* ImageExifInfoLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageExifInfoLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10D3CDB1C902C5400657C02 /* ImageExifInfoLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExifInfoLocationUITests.swift; sourceTree = "<group>"; };
 		E10D3CDD1C902C5400657C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10D3CE91C90347B00657C02 /* 20160228_130116.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20160228_130116.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E10D3CBB1C902C5400657C02 /* AppDelegate.swift */,
 				E10D3CBD1C902C5400657C02 /* ViewController.swift */,
 				E10D3CBF1C902C5400657C02 /* Main.storyboard */,
+				E10D3CE91C90347B00657C02 /* 20160228_130116.jpg */,
 				E10D3CC21C902C5400657C02 /* Assets.xcassets */,
 				E10D3CC41C902C5400657C02 /* LaunchScreen.storyboard */,
 				E10D3CC71C902C5400657C02 /* Info.plist */,
@@ -231,6 +234,7 @@
 			files = (
 				E10D3CC61C902C5400657C02 /* LaunchScreen.storyboard in Resources */,
 				E10D3CC31C902C5400657C02 /* Assets.xcassets in Resources */,
+				E10D3CEA1C90347B00657C02 /* 20160228_130116.jpg in Resources */,
 				E10D3CC11C902C5400657C02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
