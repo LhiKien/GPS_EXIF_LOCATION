@@ -55,9 +55,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                         let gpsDict = unsafeBitCast(gps, CFDictionaryRef.self)
                         let gpsLat = CFDictionaryGetValue(gpsDict, unsafeAddressOf(kCGImagePropertyGPSLatitude))
                         let gpsLong = CFDictionaryGetValue(gpsDict, unsafeAddressOf(kCGImagePropertyGPSLongitude))
-                        let gpsLatStr = unsafeBitCast(gpsLat, CFString.self)
-                        let gpsLongStr = unsafeBitCast(gpsLong, CFString.self)
-                        txtInfo.text = "Lat:\(gpsLatStr) / Lon:\(gpsLongStr)"
+                        let gpsLatNum = unsafeBitCast(gpsLat, CFNumber.self)
+                        let gpsLongNum = unsafeBitCast(gpsLong, CFNumber.self)
+                        txtInfo.text = "Lat:\(gpsLatNum) / Lon:\(gpsLongNum)"
                     }
                 }
             }
